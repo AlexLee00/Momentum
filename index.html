@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alex Lee">
+    <title>Momentum App</title>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <h2 id="clock">00:00:00</h2>
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="ID를 입력하세요">
+        <input type="submit" value="로그인하기">
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="할일을 작성하고 엔터를 눌러주세요." required>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div clsss="js-wearher weather" id="weather">
+        <span class="wearher__text"></span>
+        <span></span>
+    </div>
+
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/backround.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html> -->
+
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Nicolás Serrano Arévalo">
+    <title>Momonton</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(&quot;https://images.unsplash.com/photo-1513875528452-39400945934d?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=Mnw0MDI0M3wwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MjMwMzE4MQ&amp;ixlib=rb-1.2.1&amp;q=85&quot;);">
+
+    <section class="center">
+        <div class="js-clock clock">
+            <h3 class="clock__text"></h3>
+        </div>
+        <div class="js-name name"></div>
+        <div>
+            <form class="js-to-do to-do">
+                <input class="js-add-to-do to-do__add-to-do" placeholder="Write a To Do here" type="text">
+            </form>
+            <ul class="js-list list"></ul>
+        </div>
+    </section>
+
+    <div class="js-location location">
+        <span class="location__text"></span>
+    </div>
+
+    <div class="js-weather weather">
+        <span class="weather__text"></span>
+    </div>
+
+    <script src="js/backround.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <!-- <script src="js/quotes.js"></script> -->
+
+
+
+</body></html>
